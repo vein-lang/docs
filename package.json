@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "dev": "vitepress dev",
+        "build": "vitepress build",
+        "preview": "vitepress preview"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.8.0",
+        "vitepress": "^1.2.3"
+    }
+}
