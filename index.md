@@ -83,6 +83,18 @@ const members = [
             link: 'https://noname2544.t.me' 
         }
     ]
+  },
+  {
+    avatar: 'https://www.github.com/ViktorChernyaev.png',
+    name: 'Viktor Chernyaev',
+    title: 'GC Maintainer',
+    links: [
+        { icon: 'github', link: 'https://github.com/ViktorChernyaev' },
+        { 
+            icon: { svg: telegramIcon, },
+            link: 'https://bagunok.t.me' 
+        }
+    ]
   }
 ]
 </script>
