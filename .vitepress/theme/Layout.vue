@@ -41,6 +41,11 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 
 <template>
     <DefaultTheme.Layout />
+    <div style="display: grid; align-items: center; justify-content: center;">
+        <a href="https://vercel.com/?utm_source=vein-lang&amp;utm_campaign=oss">
+            <img src="https://raw.githubusercontent.com/vein-lang/vein/master/.github/powered-by-vercel.svg">
+        </a>
+    </div>
 </template>
 
 <style>

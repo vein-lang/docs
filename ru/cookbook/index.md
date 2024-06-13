@@ -1,4 +1,4 @@
 ---
 layout: page
-sidebar: false
 ---
+sadfsdf
