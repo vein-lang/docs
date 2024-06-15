@@ -323,9 +323,9 @@ auto endpoint = new IpEndpoint(ipAddr, 8080);
 auto socket = TcpSocket.Create(endpoint);
 
 if (socket.bind()) {
-    console.log("Socket successfully bound.");
+    Out.print("Socket successfully bound.");
 } else {
-    console.log("Failed to bind socket.");
+    Out.print("Failed to bind socket.");
 }
 ```
 
@@ -333,11 +333,11 @@ if (socket.bind()) {
 
 ```vein
 if (socket.listen(10, () => {
-    console.log("Connection accepted.");
+    Out.print("Connection accepted.");
 })) {
-    console.log("Socket is listening for connections.");
+    Out.print("Socket is listening for connections.");
 } else {
-    console.log("Failed to listen on socket.");
+    Out.print("Failed to listen on socket.");
 }
 ```
 
@@ -345,11 +345,11 @@ if (socket.listen(10, () => {
 
 ```vein
 socket.accept(handle, (data) => {
-    console.log("Received data: " + data);
+    Out.print("Received data: " + data);
 }, (data) => {
-    console.log("Sending data: " + data);
+    Out.print("Sending data: " + data);
     socket.write(handle, data, () => {
-        console.log("Data sent.");
+        Out.print("Data sent.");
     });
 });
 ```
