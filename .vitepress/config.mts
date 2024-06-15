@@ -5,7 +5,6 @@ import { defineConfig } from "vitepress";
 const VEIN_TM_LANGUAGE_SOURCE =
   "https://raw.githubusercontent.com/vein-lang/tmLanguage/master/grammars/vein.tmLanguage.json";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Vein",
   cleanUrls: true,
@@ -25,19 +24,33 @@ export default defineConfig({
   },
   themeConfig: {
     logo: "https://github.com/vein-lang/artwork/blob/master/vein-icon.png?raw=true",
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-      { text: "Cookbook", link: "/cookbook" },
+      { text: "Cookbook", link: "/api/threading" },
     ],
 
     sidebar: [
       {
         text: "Main",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "Begin", link: "/begin" }
+        ],
+      },
+      {
+        text: "Api",
+        items: [
+          { text: "Threading", link: "/api/threading" },
+          { text: "Promises", link: "/api/promises" },
+          { text: "Network", link: "/api/network" },
+          {
+            text: "Collections",
+            items: [
+              { text: "List", link: "/api/collections/list" },
+              { text: "Map", link: "/api/collections/map" },
+              { text: "Queue", link: "/api/collections/queue" },
+              { text: "Stack", link: "/api/collections/stack" },
+            ],
+          }
         ],
       }
     ],

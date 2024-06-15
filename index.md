@@ -10,10 +10,10 @@ hero:
     actions:
         - theme: brand
           text: Getting Starter
-          link: /getting-starter
+          link: /begin
         - theme: alt
           text: Cookbook
-          link: /cookbook/index
+          link: /api/threading
 
 features:
     - icon: ⚛
