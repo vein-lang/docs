@@ -139,7 +139,7 @@ auto success = socket.listen(backlog, fn);
 #### Example
 
 ```vein
-auto success = socket.listen(10, () => {
+auto success = socket.listen(10, () |> {
     // handle incoming connection
 });
 ```
@@ -163,9 +163,9 @@ socket.accept(handle, read, write);
 #### Example
 
 ```vein
-socket.accept(handle, (data) => {
+socket.accept(handle, (data) |> {
     // handle read data
-}, (data) => {
+}, (data) |> {
     // handle write data
 });
 ```
@@ -189,7 +189,7 @@ socket.write(handle, req, cb);
 #### Example
 
 ```vein
-socket.write(handle, requestData, () => {
+socket.write(handle, requestData, () |> {
     // handle write callback
 });
 ```
@@ -213,7 +213,7 @@ socket.read(handle, resp, cb);
 #### Example
 
 ```vein
-socket.read(handle, responseData, () => {
+socket.read(handle, responseData, () |> {
     // handle read callback
 });
 ```
@@ -332,7 +332,7 @@ if (socket.bind()) {
 #### Listening for Incoming Connections
 
 ```vein
-if (socket.listen(10, () => {
+if (socket.listen(10, () |> {
     Out.print("Connection accepted.");
 })) {
     Out.print("Socket is listening for connections.");
@@ -344,11 +344,11 @@ if (socket.listen(10, () => {
 #### Accepting, Reading, and Writing Data
 
 ```vein
-socket.accept(handle, (data) => {
+socket.accept(handle, (data) |> {
     Out.print("Received data: " + data);
-}, (data) => {
+}, (data) |> {
     Out.print("Sending data: " + data);
-    socket.write(handle, data, () => {
+    socket.write(handle, data, () |> {
         Out.print("Data sent.");
     });
 });

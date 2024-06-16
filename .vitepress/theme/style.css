@@ -1,3 +1,6 @@
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+
 :root {
     --vp-c-left-color: #a21013;
     --vp-c-right-color: #a21013;
@@ -10,6 +13,9 @@
     --vp-home-hero-image-filter: blur(180px) !important;
 }
 
+code { 
+    font-family: 'Fira Code VF', monospace  !important; 
+}
 @keyframes levitate {
     0%  { transform: translateY(0)     }
     30% { transform: translateY(-10px) }
