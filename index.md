@@ -95,6 +95,18 @@ const members = [
             link: 'https://bagunok.t.me' 
         }
     ]
+  },
+  {
+    avatar: 'https://www.github.com/ZverGuy.png',
+    name: 'Maxim Kitsunoff',
+    title: 'Specs Maintainer',
+    links: [
+        { icon: 'github', link: 'https://github.com/ZverGuy' },
+        { 
+            icon: { svg: telegramIcon, },
+            link: 'https://kitsunoff.t.me' 
+        }
+    ]
   }
 ]
 </script>
