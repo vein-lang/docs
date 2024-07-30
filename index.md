@@ -10,10 +10,10 @@ hero:
     actions:
         - theme: brand
           text: Getting Starter
-          link: /begin
+          link: /getstart
         - theme: alt
           text: Cookbook
-          link: /api/threading
+          link: /newproject
 
 features:
     - icon: ⚛
@@ -29,6 +29,22 @@ features:
       title: CLI
       details: Use Vein to create concise and user-friendly CLI applications
 ---
+
+## Getting Started
+
+You can get started using Vein Language right away using simple command!
+
+::: code-group
+
+```powershell [windows]
+irm "https://vein-lang.org/install.ps1" | iex
+```
+
+```bash [macOS/Linux (curl)]
+curl -fsSL https://vein-lang.org/install.sh | bash 
+```
+:::
+
 **\*** some features may not be available at the moment, but are being actively developed.
 
 <script setup>
@@ -54,7 +70,7 @@ const members = [
   },
   {
     avatar: 'https://www.github.com/urumo.png',
-    name: 'Aram (svclite)',
+    name: 'Σуαтсk as Aram',
     title: 'Helper & Maintainer',
     links: [
         { icon: 'github', link: 'https://github.com/urumo' },

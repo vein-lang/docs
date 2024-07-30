@@ -1,4 +1,4 @@
-# Thread Class Documentation
+# Threading <Badge type="warning" text="experimental" /> 
 
 The `Thread` class provides several methods for managing thread execution in a multithreaded environment. 
 

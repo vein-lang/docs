@@ -1,5 +1,3 @@
-import { link } from "fs";
-import { text } from "stream/consumers";
 import { defineConfig } from "vitepress";
 
 const VEIN_TM_LANGUAGE_SOURCE =
@@ -26,22 +24,45 @@ export default defineConfig({
     logo: "https://github.com/vein-lang/artwork/blob/master/vein-icon.png?raw=true",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Cookbook", link: "/api/threading" },
+      { text: "Getting Starter", link: "/getstart" },
     ],
 
     sidebar: [
       {
         text: "Main",
         items: [
-          { text: "Begin", link: "/begin" }
+          { text: "Getting Start", link: "/getstart" },
+          { text: "Installation", link: "/install" },
+          { text: "First Project", link: "/newproject" },
         ],
       },
       {
-        text: "Api",
+        text: "Standard library",
         items: [
-          { text: "Threading", link: "/api/threading" },
-          { text: "Promises", link: "/api/promises" },
-          { text: "Network", link: "/api/network" },
+          {
+            text: "IO",
+            items: [
+              { text: "Threading", link: "/api/io/threading" },
+              { text: "Sync", link: "/api/io/sync" },
+              { text: "File", link: "/api/io/file" },
+            ]
+          },
+          {
+            text: "Async",
+            items: [
+              { text: "Promises", link: "/api/async/promises" },
+
+            ]
+          },
+          {
+            text: "Network",
+            items: [
+              { text: "Dns", link: "/api/network/dns" },
+              { text: "IP", link: "/api/network/ip" },
+              { text: "Sockets", link: "/api/network/socket" },
+
+            ]
+          },
           {
             text: "Collections",
             items: [
@@ -49,6 +70,12 @@ export default defineConfig({
               { text: "Map", link: "/api/collections/map" },
               { text: "Queue", link: "/api/collections/queue" },
               { text: "Stack", link: "/api/collections/stack" },
+            ],
+          },
+          {
+            text: "Utils",
+            items: [
+              { text: "Regex", link: "/api/utils/regex" }
             ],
           }
         ],
