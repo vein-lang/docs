@@ -26,8 +26,11 @@ VeinSDK requires a minimum of Windows 10 version 1809
 ## Checking installation
 
 ```bash [macOS/Linux (curl)]
-$ vein --version
-Vein 0.*
+$ rune --version
+Vein SDK 0.*
+[ishtar] 0.*
+[veinc] 0.*
+[rune] 0.*
 ```
 
 

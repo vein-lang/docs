@@ -1,11 +1,11 @@
 # Generating a new project
 
 Let’s write a small application with our new Vein development environment.
-To start, we’ll use vein to make a new project for us. 
+To start, we’ll use rune to make a new project for us. 
 In your terminal of choice run:
 
 ```bash [console]
-vein new
+rune new
 ```
 
 
@@ -43,13 +43,13 @@ packages:
 We can also do this by running      
 
 ```bash
-vein add cow
+rune add cow
 ```
 
 Now we can run:
 
 ```bash
-vein build
+rune build
 ```
 
 ## Fast start
@@ -58,7 +58,7 @@ vein build
 cd ~/
 mkdir cool_project
 cd cool_project
-vein new
-vein run
+rune new
+rune run
 code . 
 ```

@@ -34,6 +34,7 @@ export default defineConfig({
           { text: "Getting Start", link: "/getstart" },
           { text: "Installation", link: "/install" },
           { text: "First Project", link: "/newproject" },
+          { text: "Publish", link: "/etc/publish" },
         ],
       },
       {
