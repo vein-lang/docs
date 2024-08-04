@@ -1,6 +1,13 @@
 # Installation
 
 
+
+::: danger Attention! 
+This documentation refers to version 0.30, but at the moment it has not yet been released to the public 
+:::
+
+
+
 ::: tip
 Linux users — The unzip package is required to install VeinSDK. 
 Use sudo apt install unzip to install unzip package. 

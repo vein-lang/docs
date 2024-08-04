@@ -71,7 +71,7 @@ const members = [
   {
     avatar: 'https://www.github.com/urumo.png',
     name: 'Σуαтсk as Aram',
-    title: 'Helper & Maintainer',
+    title: 'Maintainer',
     links: [
         { icon: 'github', link: 'https://github.com/urumo' },
         { 
@@ -101,21 +101,9 @@ const members = [
     ]
   },
   {
-    avatar: 'https://www.github.com/ViktorChernyaev.png',
-    name: 'Viktor Chernyaev',
-    title: 'GC Maintainer',
-    links: [
-        { icon: 'github', link: 'https://github.com/ViktorChernyaev' },
-        { 
-            icon: { svg: telegramIcon, },
-            link: 'https://bagunok.t.me' 
-        }
-    ]
-  },
-  {
     avatar: 'https://www.github.com/ZverGuy.png',
     name: 'Maxim Kitsunoff',
-    title: 'Specs Maintainer',
+    title: 'Maintainer',
     links: [
         { icon: 'github', link: 'https://github.com/ZverGuy' },
         { 
