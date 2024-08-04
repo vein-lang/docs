@@ -32,6 +32,7 @@ features:
 
 ## Getting Started
 
+<div>
 You can get started using Vein Language right away using simple command!
 
 ::: code-group
@@ -46,6 +47,24 @@ curl -fsSL https://vein-lang.org/install.sh | bash
 :::
 
 **\*** some features may not be available at the moment, but are being actively developed.
+
+</div>
+
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>
+      Our Team
+    </template>
+    <template #lead>
+      The development of Vein is guided by an international
+      team, some of whom have chosen to be featured below.
+    </template>
+  </VPTeamPageTitle>
+  <VPTeamMembers
+    :members="members"
+  />
+</VPTeamPage>
+
 
 <script setup>
 import {
@@ -115,17 +134,3 @@ const members = [
 ]
 </script>
 
-<VPTeamPage>
-  <VPTeamPageTitle>
-    <template #title>
-      Our Team
-    </template>
-    <template #lead>
-      The development of Vein is guided by an international
-      team, some of whom have chosen to be featured below.
-    </template>
-  </VPTeamPageTitle>
-  <VPTeamMembers
-    :members="members"
-  />
-</VPTeamPage>
