@@ -43,7 +43,10 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 <template>
     <DefaultTheme.Layout>
         <template #page-bottom>
-            <Footer/>
+            <shadow-root abstract>
+                <Footer  />
+            </shadow-root>
+            
         </template>
     </DefaultTheme.Layout>
 </template>

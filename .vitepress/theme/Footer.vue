@@ -2,7 +2,7 @@
 import vsDivider from './vsDivider.vue';
 </script>
 
-<template>
+<template >
     <vsDivider style="padding-left: 5%; padding-right: 5%;" color="#2e2e32"> </vsDivider>
     <footer class="footer">
         <div class="footer__uls">
@@ -34,7 +34,7 @@ import vsDivider from './vsDivider.vue';
         </div>
     </footer>
 </template>
-<style>
+<style scoped>
 /*footer*/
 .footer {
   width: 100%;

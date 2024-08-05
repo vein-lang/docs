@@ -137,7 +137,7 @@
     }
   }
   </script>
-  <style>
+  <style scoped>
   .vs-divider {
       width: 100%;
       position: relative;
