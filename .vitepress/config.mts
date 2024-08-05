@@ -100,4 +100,5 @@ export default defineConfig({
       lang: "en",
     }
   },
+  metaChunk: true
 });

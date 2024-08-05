@@ -1,5 +1,6 @@
 ---
 layout: home
+markdownStyles: true
 
 hero:
     name: "Vein"
