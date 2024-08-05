@@ -17,6 +17,11 @@ export default defineConfig({
       });
     },
   },
+  head: [
+    [
+      'link', { rel: 'icon', href: '/favicon.ico' }
+    ]
+  ],
   sitemap: {
     hostname: "https://www.vein-lang.org/",
   },
