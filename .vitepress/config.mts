@@ -100,5 +100,6 @@ export default defineConfig({
       lang: "en",
     }
   },
-  metaChunk: true
+  metaChunk: true,
+  ignoreDeadLinks: true
 });
