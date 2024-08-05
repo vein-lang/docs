@@ -43,7 +43,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 <template>
     <DefaultTheme.Layout>
         <template #layout-bottom>
-            <vsDivider style="padding-left: 5%; padding-right: 5%;" color="warning"> </vsDivider>
+            <vsDivider style="padding-left: 5%; padding-right: 5%;" color="#2e2e32"> </vsDivider>
             <footer class="footer">
                 <div class="footer__uls">
                     <ul>
