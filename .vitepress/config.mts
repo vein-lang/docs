@@ -19,7 +19,7 @@ export default defineConfig({
   },
   head: [
     [
-      'link', { rel: 'icon', href: '/favicon.ico' }
+      'link', { rel: 'icon', href: 'https://gallery.vein-lang.org/favicon.ico' }
     ]
   ],
   sitemap: {

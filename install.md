@@ -34,10 +34,14 @@ VeinSDK requires a minimum of Windows 10 version 1809
 
 ```bash [macOS/Linux (curl)]
 $ rune --version
-Vein SDK 0.*
-[ishtar] 0.*
-[veinc] 0.*
-[rune] 0.*
+Vein Rune CLI 0.*.*
+Branch: master+*
+```
+
+## Checking workloads installed
+
+```bash [macOS/Linux (curl)]
+$ rune workload list
 ```
 
 
@@ -57,10 +61,12 @@ or download it manualy [Vein DevKit](https://marketplace.visualstudio.com/items?
 ::: code-group
 
 ```powershell [windows]
-powershell -c ~\.vein\uninstall.ps1
+rm ~\.vein
 ```
 
 ```bash [macOS/Linux (curl)]
 rm -rf ~/.vein
 ```
+
+
 :::
