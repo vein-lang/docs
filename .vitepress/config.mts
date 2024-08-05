@@ -83,10 +83,6 @@ export default defineConfig({
       }
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/vein-lang" }],
-	footer: {
-		message: '',
-		copyright: 'Copyright © Vein Project 2020-2024'
-	},
 	editLink: {
 		pattern: ({ filePath }) => {
 		  return `https://github.com/vein-lang/docs/edit/master/${filePath}`
