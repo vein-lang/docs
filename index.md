@@ -46,3 +46,16 @@ curl -fsSL https://vein-lang.org/install.sh | bash
 :::
 
 **\*** some features may not be available at the moment, but are being actively developed.
+<style>
+@media (min-width: 768px) {
+    .VPHome {
+        margin-bottom: unset !important;
+    }
+}
+
+</style>
+<script setup>
+import Footer from './.vitepress/theme/Footer.vue';
+</script>
+<div style="margin: 100px;"></div>
+<Footer></Footer>
