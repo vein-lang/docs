@@ -69,25 +69,23 @@ import vsDivider from './vsDivider.vue';
 
 .footer ul {
   padding: 30px;
-  list-style: none;
+  list-style: none !important;
   margin: 30px 20px;
 }
 ol,
 p,
 ul {
   line-height: 1.7;
-  list-style: unset;
 }
 .footer ul .footer-title {
   margin-bottom: 15px;
-  list-style: unset;
 }
 .footer ul li {
   font-size: 1.1rem;
   font-weight: 700;
   opacity: 0.8;
   margin: 10px 0;
-  list-style: unset;
+  list-style: unset !important;
 }
 .footer-title {
   text-align: left;
