@@ -93,15 +93,6 @@ export default defineConfig({
     root: {
       label: "English",
       lang: "en",
-    },
-    ru: {
-      label: "Russian",
-      lang: "ru",
-	  themeConfig: {
-		nav: [
-			{ text: "Главная", link: "/ru" }
-		]
-	  }
-    },
+    }
   },
 });

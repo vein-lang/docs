@@ -76,15 +76,18 @@ ol,
 p,
 ul {
   line-height: 1.7;
+  list-style: unset;
 }
 .footer ul .footer-title {
   margin-bottom: 15px;
+  list-style: unset;
 }
 .footer ul li {
   font-size: 1.1rem;
   font-weight: 700;
   opacity: 0.8;
   margin: 10px 0;
+  list-style: unset;
 }
 .footer-title {
   text-align: left;
@@ -100,6 +103,7 @@ ul {
   padding: 5px;
   display: block;
   text-decoration: unset;
+  list-style: unset;
 }
 a {
   font-weight: 500;
