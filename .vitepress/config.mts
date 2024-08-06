@@ -19,8 +19,9 @@ export default defineConfig({
   },
   head: [
     [
-      'link', { rel: 'icon', href: 'https://gallery.vein-lang.org/favicon.ico' }
-    ]
+      "link",
+      { rel: "icon", href: "https://gallery.vein-lang.org/favicon.ico" },
+    ],
   ],
   sitemap: {
     hostname: "https://www.vein-lang.org/",
@@ -31,7 +32,6 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Getting Starter", link: "/getstart" },
     ],
-
     sidebar: [
       {
         text: "Main",
@@ -51,14 +51,11 @@ export default defineConfig({
               { text: "Threading", link: "/api/io/threading" },
               { text: "Sync", link: "/api/io/sync" },
               { text: "File", link: "/api/io/file" },
-            ]
+            ],
           },
           {
             text: "Async",
-            items: [
-              { text: "Promises", link: "/api/async/promises" },
-
-            ]
+            items: [{ text: "Promises", link: "/api/async/promises" }],
           },
           {
             text: "Network",
@@ -66,8 +63,7 @@ export default defineConfig({
               { text: "Dns", link: "/api/network/dns" },
               { text: "IP", link: "/api/network/ip" },
               { text: "Sockets", link: "/api/network/socket" },
-
-            ]
+            ],
           },
           {
             text: "Collections",
@@ -80,26 +76,24 @@ export default defineConfig({
           },
           {
             text: "Utils",
-            items: [
-              { text: "Regex", link: "/api/utils/regex" }
-            ],
-          }
+            items: [{ text: "Regex", link: "/api/utils/regex" }],
+          },
         ],
-      }
+      },
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/vein-lang" }],
-	editLink: {
-		pattern: ({ filePath }) => {
-		  return `https://github.com/vein-lang/docs/edit/master/${filePath}`
-		}
-	}
+    editLink: {
+      pattern: ({ filePath }) => {
+        return `https://github.com/vein-lang/docs/edit/master/${filePath}`;
+      },
+    },
   },
   locales: {
     root: {
       label: "English",
       lang: "en",
-    }
+    },
   },
   metaChunk: true,
-  ignoreDeadLinks: true
+  ignoreDeadLinks: true,
 });

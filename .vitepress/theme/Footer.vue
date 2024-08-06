@@ -19,7 +19,6 @@ import vsDivider from './vsDivider.vue';
             <ul>
                 <li class="footer-title">Community</li>
                 <li><a target="_blank" href="https://github.com/vein-lang/">Github</a></li>
-                <li><a href="/team">Team</a></li>
             </ul>
             <ul>
                 <li class="footer-title">Legal</li>

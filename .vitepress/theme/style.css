@@ -26,3 +26,8 @@ code {
 .container>.image>.image-container {
     animation: levitate 10s ease 1s infinite reverse
 }
+
+
+.VPTeamMembers.medium .container {
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr)) !important;
+}
