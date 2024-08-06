@@ -6,7 +6,7 @@
     },
     "devDependencies": {
         "@biomejs/biome": "1.8.0",
-        "vitepress": "1.2.3"
+        "vitepress": "1.1.4"
     },
     "dependencies": {
         "tslib": "^2.6.3",
