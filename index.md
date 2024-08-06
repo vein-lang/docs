@@ -46,5 +46,9 @@ features:
 <script setup>
 import Footer from './.vitepress/theme/Footer.vue';
 </script>
-<div style="margin: 100px;"></div>
-<Footer></Footer>
+
+<ClientOnly>
+  <div style="margin: 100px;"></div>
+  <Footer></Footer>
+</ClientOnly>
+
