@@ -43,13 +43,7 @@ features:
 </style>
 <script setup>
 import Footer from './.vitepress/theme/Footer.vue';
-import FuckVitePressFuck from './.vitepress/theme/FuckVitePressFuck.vue';
 </script>
 
-
-
-<!-- 
- STUPID SHIT FUCKING VITEPRESS NOT WORK I HATE THIS
-include: ./index.gs.md-->
-<FuckVitePressFuck/>
+<!-- @include: ./index.gs.md-->
 <Footer/>
