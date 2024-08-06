@@ -1,10 +1,7 @@
 <template>
     <div>
-        <h2 id="getting-started" tabindex="-1">Getting Started <a class="header-anchor" href="#getting-started"
-                aria-label="Permalink to &quot;Getting Started&quot;">&ZeroWidthSpace;</a></h2>
-        <p>You
-            can get started using Vein Language right away using simple
-            command!</p>
+        <h2>Getting Started <a class="header-anchor">&ZeroWidthSpace;</a></h2>
+        <p>You can get started using Vein Language right away using simple command!</p>
         <div class="vp-code-group vp-adaptive-theme">
             <div class="tabs"><input type="radio" name="group-j93fG" id="tab-OqAEpnT" checked><label
                     for="tab-OqAEpnT">windows</label><input type="radio" name="group-j93fG" id="tab-xbWHrEe"><label
@@ -26,6 +23,5 @@
             some features may not be available at the moment, but are being actively
             developed.</p>
     </div>
-
     <div style="margin: 100px;"></div>
 </template>
