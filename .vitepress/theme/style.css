@@ -31,3 +31,7 @@ code {
 .VPTeamMembers.medium .container {
     grid-template-columns: repeat(auto-fit, minmax(256px, 1fr)) !important;
 }
+
+.vp-doc .VPHomeSponsors, .vp-doc .VPTeamPage {
+    margin-right: var(--vp-offset, calc(51% - 50vw)) !important;
+}
