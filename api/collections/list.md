@@ -125,7 +125,7 @@ list.Add(2);
 list.Add(3);
 
 // Accessing an element
-console.log(list.Get(0)); // Output: 1
+Out.println(list.Get(0)); // Output: 1
 
 // Removing an element
 list.Remove(2);
@@ -153,7 +153,7 @@ personList.Add(new Person("Bob", 25));
 
 // Accessing a Person object
 auto person = personList.Get(0);
-console.log(person.name); // Output: Alice
+Out.println(person.name); // Output: Alice
 
 // Removing a Person object
 personList.Remove(person);

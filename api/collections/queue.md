@@ -80,7 +80,7 @@ numberQueue.Enqueue(2);
 numberQueue.Enqueue(3);
 
 // Dequeuing an element
-console.log(numberQueue.Dequeue()); // Output: 1
+Out.println(numberQueue.Dequeue()); // Output: 1
 
 // Clearing the queue
 numberQueue.Clear();
@@ -102,7 +102,7 @@ personQueue.Enqueue(new Person("Bob", 25));
 
 // Dequeuing a Person object
 auto dequeuedPerson = personQueue.Dequeue();
-console.log(dequeuedPerson.name); // Output: Alice
+Out.println(dequeuedPerson.name); // Output: Alice
 
 // Clearing the queue
 personQueue.Clear();

@@ -99,14 +99,14 @@ numberStack.Push(2);
 numberStack.Push(3);
 
 // Peeking the top element
-console.log(numberStack.Peek()); // Output: 3
+Out.println(numberStack.Peek()); // Output: 3
 
 // Popping the top element
-console.log(numberStack.Pop()); // Output: 3
+Out.println(numberStack.Pop()); // Output: 3
 
 // Clearing the stack
 numberStack.Clear();
-console.log(numberStack.Peek()); // Throws error because stack is empty
+Out.println(numberStack.Peek()); // Throws error because stack is empty
 ```
 
 ### Using a Stack with Custom Objects
@@ -125,11 +125,11 @@ personStack.Push(new Person("Bob", 25));
 
 // Peeking the top Person object
 auto topPerson = personStack.Peek();
-console.log(topPerson.name); // Output: Bob
+Out.println(topPerson.name); // Output: Bob
 
 // Popping the top Person object
 auto removedPerson = personStack.Pop();
-console.log(removedPerson.name); // Output: Bob
+Out.println(removedPerson.name); // Output: Bob
 
 // Clearing the stack
 personStack.Clear();
