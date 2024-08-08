@@ -104,7 +104,7 @@ export default defineConfig({
             {
               text: "New",
               items: [
-                { text: "<div style='color: #4b4949;'>In v0.30</div>" },
+                { text: "<div style='color: #4b4949;'>In v0.30</div>", link: "/book/tutor/todo" },
               ],
             },
             {
@@ -126,13 +126,13 @@ export default defineConfig({
                 { text: "Fields and Properties", link: "/book/tutor/fields" },
                 { text: "This and Self", link: "/book/tutor/this_and_self" },
                 { text: "Methods and operators", link: "/book/tutor/methods" },
-                { text: "<div style='color: #4b4949;'>Classes, structs</div>" },
-                { text: "<div style='color: #4b4949;'>Generics</div>" },
-                { text: "<div style='color: #4b4949;'>Polymorphism</div>" },
+                { text: "<div style='color: #4b4949;'>Classes, structs</div>", link: "/book/tutor/todo" },
+                { text: "<div style='color: #4b4949;'>Generics</div>", link: "/book/tutor/todo" },
+                { text: "<div style='color: #4b4949;'>Polymorphism</div>", link: "/book/tutor/todo" },
                 { text: "Exceptions and errors", link: "/book/tutor/exceptions" },
                 { text: "Asynchronous", link: "/book/tutor/async" },
                 { text: "Quantum", link: "/book/tutor/qunatum" },
-                { text: "<div style='color: #4b4949;'>CUDA and computed shaders</div>" },
+                { text: "<div style='color: #4b4949;'>CUDA and computed shaders</div>", link: "/book/tutor/todo" },
               ],
             }
           ],
