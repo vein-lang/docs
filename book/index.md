@@ -1,1 +1,0 @@
-# Hello World - Introductory interactive tutorial

@@ -151,7 +151,7 @@ export default defineConfig({
   locales: {
     root: {
       label: "English",
-      lang: "en",
+      lang: "en"
     },
   },
   metaChunk: true,
