@@ -14,8 +14,8 @@ Fields are variables that are declared directly within a class or structure. The
 
 ```vein
 class Person {
-    var name: string;
-    var age: i32;
+    name: string;
+    age: i32;
 
     new(name: string, age: i32) {
         this.name = name;
@@ -28,9 +28,9 @@ class Person {
 
 ```vein
 class Car {
-    var make: string;
-    var model: string;
-    var year: i32;
+    make: string;
+    model: string;
+    year: i32;
 
     new(make: string, model: string, year: i32) {
         this.make = make;

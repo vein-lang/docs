@@ -35,7 +35,7 @@ The `string.startsWith` method checks if a string starts with a specified prefix
 
 ```vein
 auto str = "Hello, World!";
-var result = string.startsWith(str, "Hello");
+result = string.startsWith(str, "Hello");
 Out.println(result);  // Output: true
 ```
 
@@ -45,7 +45,7 @@ The `string.endsWith` method checks if a string ends with a specified suffix:
 
 ```vein
 auto str = "Hello, World!";
-var result = string.endsWith(str, "World!");
+result = string.endsWith(str, "World!");
 Out.println(result);  // Output: true
 ```
 
@@ -55,7 +55,7 @@ The `string.contains` method checks if a string contains a specified substring:
 
 ```vein
 auto str = "Hello, World!";
-var result = string.contains(str, "World");
+result = string.contains(str, "World");
 Out.println(result);  // Output: true
 ```
 
@@ -66,7 +66,7 @@ The `string.equal` method checks if two strings are equal:
 ```vein
 auto str1 = "Hello";
 auto str2 = "Hello";
-var result = string.equal(str1, str2);
+result = string.equal(str1, str2);
 Out.println(result);  // Output: true
 ```
 

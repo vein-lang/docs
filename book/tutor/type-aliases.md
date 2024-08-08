@@ -22,7 +22,7 @@ alias typeAlias <| Int32;
 alias Age <| Int32;
 
 class Person {
-   var age: Age;
+   age: Age;
 
    new(age: Age) {
       this.age = age;
@@ -49,7 +49,7 @@ global alias typeAlias <| Int32;
 global alias Age <| Int32;
 
 class Person {
-   var age: Age;
+   age: Age;
 
    new(age: Age) {
       this.age = age;

@@ -28,8 +28,8 @@ class MyClass {
 
 ```vein
 class Person {
-    var name: string;
-    var age: i32;
+    name: string;
+    age: i32;
 
     new(name: string, age: i32) {
         this.name = name;
@@ -92,8 +92,8 @@ class MyClass {
 
 ```vein
 class Product {
-    var name: string;
-    var price: f64;
+    name: string;
+    price: f64;
 
     new() {
         this.name = "Unnamed";
@@ -159,8 +159,8 @@ public operator ==(lhs: FooBarClass, rhs: FooBarClass): bool {
 
 ```vein
 class Point {
-    var x: i32;
-    var y: i32;
+    x: i32;
+    y: i32;
 
     new(x: i32, y: i32) {
         this.x = x;
@@ -213,11 +213,11 @@ Access modifiers control the visibility and accessibility of classes, methods, a
 #use "native("libname.dll", "method_name")"
 
 class Example {
-    public var publicField: i32;
-    protected var protectedField: i32;
-    private var privateField: i32;
+    public publicField: i32;
+    protected protectedField: i32;
+    private privateField: i32;
 
-    static var staticField: i32;
+    static staticField: i32;
 
     public new() {
         this.publicField = 1;
