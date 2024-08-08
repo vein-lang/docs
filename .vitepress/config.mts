@@ -17,7 +17,7 @@ const masterSideBar = [
     text: "Docs",
     items: [
       { text: "Standard library", link: "/api/index" },
-      { text: "Language Reference", link: "/book/index" },
+      { text: "Language Reference", link: "/book/tutor/introduction" },
     ],
   }
 ]
