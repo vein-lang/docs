@@ -16,8 +16,8 @@ const masterSideBar = [
   {
     text: "Docs",
     items: [
-      { text: "Standard library", link: "/api/index" },
       { text: "Language Reference", link: "/book/tutor/introduction" },
+      { text: "Standard library", link: "/api/index" },
     ],
   }
 ]
@@ -49,8 +49,9 @@ export default defineConfig({
     logo: "https://github.com/vein-lang/artwork/blob/master/vein-icon.png?raw=true",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Standard Library", link: "/api/index" },
       { text: "Language Reference", link: "/book/tutor/introduction" },
+      { text: "Standard Library", link: "/api/index" },
+      
     ],
     sidebar: {
       '/': [

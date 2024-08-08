@@ -15,9 +15,6 @@ hero:
     - theme: alt
       text: Cookbook
       link: /book/tutor/introduction
-    - theme: alt
-      text: Std Doc
-      link: /api/index
 
 features:
   - icon: ⚛
