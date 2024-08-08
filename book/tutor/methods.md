@@ -115,6 +115,34 @@ Out.println("Named Product: " + namedProduct.name + ", " + namedProduct.price); 
 
 In this example, `Product` has both a default constructor and a parameterized constructor.
 
+## Short Form Method Declaration
+
+Vein also supports a short form for method declarations, similar to the arrow functions in C#.
+
+### Syntax
+
+```vein
+methodName(parameters): returnType |> expression;
+```
+
+### Example
+
+```vein
+class Example {
+    test(): i32 |> 1;
+
+    add(a: i32, b: i32): i32 |> a + b;
+}
+
+auto example = Example();
+Out.println(example.test());   // Output: 1
+Out.println(example.add(4, 3)); // Output: 7
+```
+
+In this example:
+- `test` is a method that returns `1` using the short form declaration.
+- `add` is a method that returns the sum of `a` and `b` using the short form declaration.
+
 ## Operator Overloading
 
 Operator overloading allows you to define custom behavior for operators when they are applied to instances of your classes. This can make your classes more intuitive to use.
@@ -177,6 +205,7 @@ Access modifiers control the visibility and accessibility of classes, methods, a
 - `abstract`: The member has no implementation in the base class and must be overridden in derived classes.
 - `async`: The member supports asynchronous operations.
 - `global`: Applicable only to type aliases, making them visible in all modules.
+- `operation`: Applicable only to quantum operation functions.
 
 ### Example of Access Modifiers
 
