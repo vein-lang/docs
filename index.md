@@ -10,7 +10,7 @@ hero:
 
   actions:
     - theme: brand
-      text: Getting Starter
+      text: Getting Started
       link: /getstart
     - theme: alt
       text: Cookbook

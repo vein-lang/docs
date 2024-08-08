@@ -1,4 +1,4 @@
-# Getting starter
+# Getting Started
 
 - [Installation](/install)        
 - [New Project](/newproject)      
