@@ -49,7 +49,8 @@ export default defineConfig({
     logo: "https://github.com/vein-lang/artwork/blob/master/vein-icon.png?raw=true",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Getting Starter", link: "/getstart" },
+      { text: "Standard Library", link: "/api/index" },
+      { text: "Language Reference", link: "/book/tutor/introduction" },
     ],
     sidebar: {
       '/': [

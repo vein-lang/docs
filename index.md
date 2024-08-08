@@ -14,7 +14,10 @@ hero:
       link: /getstart
     - theme: alt
       text: Cookbook
-      link: /newproject
+      link: /book/tutor/introduction
+    - theme: alt
+      text: Std Doc
+      link: /api/index
 
 features:
   - icon: ⚛
