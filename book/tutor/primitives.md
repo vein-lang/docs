@@ -69,7 +69,7 @@ In this guide, we will cover the basic primitive types available in your languag
 
 - **Array\<Any\>**: A generic array that can hold elements of any type.
 
-## Identifier Type
+## Guid
 
 - **Guid**: A globally unique identifier (UUID) version 4.
 
