@@ -35,3 +35,22 @@ code {
 .vp-doc .VPHomeSponsors, .vp-doc .VPTeamPage {
     margin-right: var(--vp-offset, calc(51% - 50vw)) !important;
 }
+
+#VPSidebarNav > div:nth-child(4) > section > div.items > section.VPSidebarItem.level-1.has-active > div.items > div:nth-child(19) > div > a > .text {
+    color: #2c2c2c !important;
+    cursor: not-allowed;
+}
+#VPSidebarNav > div:nth-child(4) > section > div.items > section.VPSidebarItem.level-1.has-active > div.items > div:nth-child(18) > div > a > .text {
+    color: #2c2c2c !important;
+    cursor: not-allowed;
+}
+
+#VPSidebarNav > div:nth-child(4) > section > div.items > section.VPSidebarItem.level-1.has-active > div.items > div:nth-child(23) > div > a > .text {
+    color: #2c2c2c !important;
+    cursor: not-allowed;
+}
+
+#VPSidebarNav > div:nth-child(4) > section > div.items > section.VPSidebarItem.level-1.has-active > div.items > div:nth-child(17) > div > a > .text {
+    color: #2c2c2c !important;
+    cursor: not-allowed;
+}
