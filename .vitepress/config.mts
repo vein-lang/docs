@@ -11,6 +11,7 @@ const masterSideBar = [
       { text: "Installation", link: "/install" },
       { text: "First Project", link: "/newproject" },
       { text: "Publish", link: "/etc/publish" },
+      { text: "Changelogs", link: "/changelog/all" },
     ],
   },
   {
@@ -106,7 +107,7 @@ export default defineConfig({
             {
               text: "New",
               items: [
-                { text: "<div style='color: #4b4949;'>In v0.30</div>", link: "/book/tutor/todo" },
+                { text: "In v0.30", link: "/changelog/v0.30" },
               ],
             },
             {
