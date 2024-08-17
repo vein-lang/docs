@@ -1,16 +1,9 @@
 # Installation
 
 
-
-::: danger Attention! 
-This documentation refers to version 0.30, but at the moment it has not yet been released to the public 
-:::
-
-
-
 ::: tip
-Linux users — The unzip package is required to install VeinSDK. 
-Use sudo apt install unzip to install unzip package. 
+Linux users — The unzip, jq and curl package is required to install VeinSDK. 
+Use sudo apt install unzip jq curl to install packages. 
 Kernel version 5.6 or higher is strongly recommended, but the minimum is 5.1. Use uname -r to check Kernel version.
 :::
 
@@ -21,7 +14,7 @@ Kernel version 5.6 or higher is strongly recommended, but the minimum is 5.1. Us
 irm "https://vein-lang.org/install.ps1" | iex
 ```
 
-```bash [macOS/Linux (curl)]
+```bash [macOS/Linux]
 curl -fsSL https://vein-lang.org/install.sh | bash 
 ```
 :::
@@ -32,7 +25,7 @@ VeinSDK requires a minimum of Windows 10 version 1809
 
 ## Checking installation
 
-```bash [macOS/Linux (curl)]
+```bash [macOS/Linux]
 $ rune --version
 Vein Rune CLI 0.*.*
 Branch: master+*
@@ -40,7 +33,7 @@ Branch: master+*
 
 ## Checking workloads installed
 
-```bash [macOS/Linux (curl)]
+```bash [macOS/Linux]
 $ rune workload list
 ```
 
@@ -64,7 +57,7 @@ or download it manualy [Vein DevKit](https://marketplace.visualstudio.com/items?
 rm ~\.vein
 ```
 
-```bash [macOS/Linux (curl)]
+```bash [macOS/Linux]
 rm -rf ~/.vein
 ```
 
