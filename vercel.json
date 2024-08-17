@@ -5,12 +5,12 @@
         { 
             "source": "/install.ps1", 
             "destination": "https://raw.githubusercontent.com/vein-lang/vein/master/metadata/scripts/install.ps1", 
-            "permanent": true 
+            "permanent": false 
         },
         { 
             "source": "/install.sh", 
             "destination": "https://raw.githubusercontent.com/vein-lang/vein/master/metadata/scripts/install.sh", 
-            "permanent": true 
+            "permanent": false 
         }
     ]
 }
