@@ -44,7 +44,7 @@ export default defineConfig({
     ],
   ],
   sitemap: {
-    hostname: "https://www.vein-lang.org/",
+    hostname: "https://vein-lang.org/",
   },
   themeConfig: {
     logo: "https://github.com/vein-lang/artwork/blob/master/vein-icon.png?raw=true",
