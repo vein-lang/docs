@@ -2,7 +2,7 @@
 title: Type Aliases
 ---
 
-# Type Aliases
+# Type Aliases <Badge type="warning" text="experimental" />
 
 In this guide, we will cover type aliases in Vein. Type aliases allow you to create new names for existing types, which can make your code more readable and easier to maintain.
 

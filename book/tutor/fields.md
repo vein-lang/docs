@@ -47,7 +47,7 @@ Out.println("Year: " + car.year);   // Output: Year: 2020
 
 In this example, `make`, `model`, and `year` are fields of the `Car` class.
 
-## Properties
+## Properties <Badge type="warning" text="experimental" />
 
 Properties provide a way to encapsulate fields and add logic for getting and setting their values. They can be used to enforce access control and validate data before it is assigned to a field.
 

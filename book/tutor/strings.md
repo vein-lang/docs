@@ -7,15 +7,6 @@ title: Work with strings
 In this guide, we will explore the functional capabilities for working with strings in vein.            
 We'll cover string concatenation, various methods provided by the `std` library, and template strings.      
 
-## String Concatenation
-
-String concatenation can be achieved using the `+` operator. Here is an example:
-
-```vein
-auto greeting = "Hello, " + "World!";
-Out.println(greeting);  // Output: Hello, World!
-```
-
 ## Methods provided by the std library
 
 ### string.format

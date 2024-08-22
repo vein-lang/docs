@@ -2,7 +2,7 @@
 title: Numbers Math
 ---
 
-# Numbers Math
+# Numbers Math <Badge type="danger" text="supported only in 0.45 version" /> 
 
 In this guide, we will discuss how to perform mathematical operations using the static `Math` class. Additionally, we will cover some of the most popular constants available in the `Math` class.
 

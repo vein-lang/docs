@@ -2,7 +2,7 @@
 title: Collections
 ---
 
-# Collections
+# Collections <Badge type="danger" text="supported only in 0.45 version" /> 
 
 In this guide, we will cover the basics of collections in Vein. Collections provide a way to store and manipulate groups of objects. Vein offers several types of collections, including `List<T>`, `Queue<T>`, `Stack<T>`, and `Map<TKey, TValue>`.
 

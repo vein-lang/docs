@@ -66,7 +66,7 @@ finally {
 }
 ```
 
-## Exception Filters
+## Exception Filters <Badge type="danger" text="supported only in 0.78 version" /> 
 
 Vein supports exception filters, allowing you to catch specific exceptions based on additional conditions.
 

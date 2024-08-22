@@ -2,7 +2,7 @@
 title: Quantum Operations
 ---
 
-# Quantum Operations <Badge type="warning" text="experimental" />  <Badge type="danger" text="Not implemented currently" /> 
+# Quantum Operations <Badge type="danger" text="supported only in 0.97 version" /> 
 
 In this guide, we will cover the basics of quantum operations in Vein. Vein supports the declaration and execution of quantum operations, which are essential for quantum computing tasks.
 

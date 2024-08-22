@@ -136,6 +136,8 @@ export default defineConfig({
                 { text: "Asynchronous", link: "/book/tutor/async" },
                 { text: "Quantum", link: "/book/tutor/qunatum" },
                 { text: "CUDA and computed shaders", link: "/book/tutor/cuda" },
+                { text: "Writing test", link: "/book/tutor/test" },
+
               ],
             }
           ],

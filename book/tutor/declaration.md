@@ -30,10 +30,10 @@ Here, `greeting` is a string variable initialized to `"Hello, World!"`.
 ### Example 3: Double Variable
 
 ```vein
-auto pi = 3.14159;
+auto pi = 3.14159d;
 ```
 
-In this example, `pi` is a double variable initialized to `3.14159`.
+In this example, `pi` is a double variable initialized to `3.14159d`.
 
 ### Example 4: Boolean Variable
 
