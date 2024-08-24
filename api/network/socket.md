@@ -85,7 +85,7 @@ public class Example {
             }
 
             // Free the allocated buffer
-            GC.free_span(buffer);
+            GC.destroy_u8(buffer);
 
             // Shut down the client socket
             client.shutdown();
@@ -104,6 +104,6 @@ In this example:
 3. For each client connection:
     - A buffer of `1024` bytes is allocated using `GC.allocate_u8()`.
     - Data is received into the buffer and echoed back to the client.
-    - The buffer is freed using `GC.free_span()`.
+    - The buffer is freed using `GC.destroy_u8()`.
     - The client socket is shut down after the data is handled.
 4. The server socket is finally shut down after exiting the loop.
