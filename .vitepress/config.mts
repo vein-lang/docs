@@ -64,11 +64,18 @@ export default defineConfig({
           text: "Standard library",
           items: [
             {
+              text: "Primitives",
+              items: [
+                { text: "Strings", link: "/api/string" }
+              ],
+            },
+            {
               text: "IO",
               items: [
                 { text: "Threading", link: "/api/io/threading" },
                 { text: "Sync", link: "/api/io/sync" },
                 { text: "File", link: "/api/io/file" },
+                { text: "Buffers and Spans", link: "/api/io/buffer" },
               ],
             },
             {
