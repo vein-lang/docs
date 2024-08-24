@@ -14,8 +14,8 @@ auto buffer: Span<u8> = GC.allocate_u8(1024);
 
 ### Deallocating Buffers
 
-Buffers are deallocated using the `GC.free_span(span)` method. This method takes the `Span<u8>` to be freed as an argument.
+Buffers are deallocated using the `GC.destroy_u8(span)` method. This method takes the `Span<u8>` to be freed as an argument.
 
 ```vein
-GC.free_span(buffer);
+GC.destroy_u8(buffer);
 ```
