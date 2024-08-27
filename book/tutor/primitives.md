@@ -98,6 +98,11 @@ auto bigNumber: i128 = 170141183460469231731687303715884105727;
 auto ubigNumber: u128 = 340282366920938463463374607431768211455;
 ```
 
+::: warning Attention! 
+Currently i8 (signed byte), u128, i128, u256, i256, u512, i512, f128, f256 number is not implemented
+:::
+
+
 ### Floating-Point Example
 
 ```vein
