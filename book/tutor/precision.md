@@ -35,6 +35,11 @@ Different number types in Vein have different limits and precision characteristi
 - **f64 (Double)**: Approximate range from `2.23e-308 to 1.79e308`, with 15-16 decimal digits of precision.
 - **f128 (Decimal)**: Approximate range from `1.0e-6145 to 7.9e6145`, with 33-34 decimal digits of precision.
 
+::: warning Attention! 
+Currently i8 (signed byte), u128, i128, u256, i256, u512, i512, f128, f256 number is not implemented
+:::
+
+
 ## Common Pitfalls with Floating-Point Arithmetic
 
 Floating-point numbers are an approximation and thus can lead to precision errors. A well-known example of this is:
