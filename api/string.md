@@ -72,11 +72,19 @@ Copies the string into the provided buffer using the specified encoding.
 - `buffer`: The buffer where the string will be copied.
 - `encoding`: The encoding format to use.
 
-### `createFrom(buffer: Span<u8>, encoding: i32): void`
+### `createFrom(buffer: Span<u8>, encoding: i32): string`
 
 Creates a string from the given buffer using the specified encoding.
 
 - `buffer`: The buffer containing the string data.
+- `encoding`: The encoding format to use.
+
+### `createFrom(buffer: Span<u8>, size: i32, encoding: i32): string`
+
+Creates a string from the given buffer using the specified encoding and specified size.
+
+- `buffer`: The buffer containing the string data.
+- `size`: The size containing the string data in buffer.
 - `encoding`: The encoding format to use.
 
 ## Operators
