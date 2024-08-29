@@ -1,10 +1,12 @@
 ---
 title: This and Self
+description: This and Self
 ---
 
 # This and Self
 
-In this guide, we will cover the usage of `this` and `self` keywords in Vein. These keywords are used to refer to the current instance of a class and the static context of a class, respectively.
+In this guide, we will cover the usage of `this` and `self` keywords in Vein.   
+These keywords are used to refer to the current instance of a class and the static context of a class, respectively.    
 
 ## this Keyword
 

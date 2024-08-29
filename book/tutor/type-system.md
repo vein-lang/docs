@@ -1,10 +1,12 @@
 ---
-title: Type System
+title: Type System.
+description: Vein Type System
 ---
-
 # Type System
 
-In this guide, we will cover the standard type system in Vein. Understanding the type system is crucial for writing robust and efficient code. We will discuss classes, abstract classes, interfaces, structures, and related functionalities.
+In this guide, we will cover the standard type system in Vein.    
+Understanding the type system is crucial for writing robust and efficient code.  
+We will discuss classes, abstract classes, interfaces, structures, and related functionalities. 
 
 
 ## Constructors
