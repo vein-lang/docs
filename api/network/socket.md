@@ -88,11 +88,11 @@ public class Example {
             GC.destroy_u8(buffer);
 
             // Shut down the client socket
-            client.shutdown();
+            client.shutdown(2);
         }
 
         // Shut down the server socket when done
-        server.shutdown();
+        server.shutdown(2);
     }
 }
 ```
