@@ -50,7 +50,7 @@ Receives data from the socket.
 
 Returns the number of bytes received.
 
-### `shutdown(): void`
+### `shutdown(flags: i32): void`
 
 Shuts down the socket, closing any active connections and releasing resources.
 
